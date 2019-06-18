@@ -1,0 +1,70 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F746ZG -RA -BIN -LHF -C -DL -SSA -O11111114 -fo216 -N"C:\Users\katarina.perendic\Desktop\Pressure4_demoApp\Example\Pressure4_demo_app.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M7\" -SP"C:\Users\katarina.perendic\Desktop\Pressure4_demoApp\Example\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\FAT32 Library\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\GSM 2 Click\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikromedia drajver\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Pressure 4 Click\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\RTC 6  Click\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Mikromedia Board Definition\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M7\" -IP"C:\Users\katarina.perendic\Desktop\Pressure4_demoApp\Example\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\FAT32 Library\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\GSM 2 Click\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikromedia drajver\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Pressure 4 Click\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\RTC 6  Click\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Mikromedia Board Definition\Uses\" "Pressure4_demo_app_main.c" "Pressure4_demo_app_events_code.c" "Pressure4_demo_app_driver.c" "Pressure4_demo_app_resources.c" "DemoApp_pressure.c" "DemoApp_rtc.c" "DemoApp_FAT32.c" "DemoApp_initTime.c" "DemoApp_displayGraphics.c" "DemoApp_GSM.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_F7xx.emcl" "__Lib_GPIO_32F7xx_Defs.emcl" "__Lib_GPIO_32F7xx.emcl" "__Lib_CString.emcl" "__Lib_Conversions.emcl" "__Lib_Trigonometry.emcl" "__Lib_I2C_1234.emcl" "__Lib_SPI_123456.emcl" "__Lib_UART_123_45_6_78.emcl" "__Lib_SDIO.emcl" "__Lib_PortExpander.emcl" "__Lib_Mmc_SDIO.emcl" "__Lib_TFT.emcl" "__Lib_TFT_Defs.emcl" "__Lib_TouchPanel_TFT.emcl" "__Lib_STMPE610.emcl" "Pressure_4_STM32_M7.emcl" "mikromediaPlus_STM32F7.emcl" "RTC6_STM32_M7.emcl" "__Lib_FAT32_Driver_STM32_M3_M4_M7.emcl" "__Lib_FAT32_Defs_STM32_M3_M4_M7.emcl" "__Lib_FAT32_STM32_M3_M4_M7.emcl" "GSM_2_STM32_M7.emcl" "demo_pld.pld"	 
+diagnostics: 0	122	Compilation Started	STM32F746ZG.c
+diagnostics: 81803	123	Compiled Successfully	STM32F746ZG.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 123	123	Compiled Successfully	__Lib_Delays.c
+hint: 66	1164	Variable 'cycles_div_by_10' has been eliminated by optimizer	__Lib_Delays.c
+hint: 92	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+hint: 109	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__lib_gpio.h
+diagnostics: 822	123	Compiled Successfully	__Lib_GPIO_32F7xx_Defs.c
+diagnostics: 0	122	Compilation Started	__Lib_TFT_Defs.c
+warning: 110	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+warning: 122	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+warning: 134	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+warning: 146	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+warning: 155	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+warning: 172	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+warning: 186	1508	Implicit conversion of int to ptr	__Lib_TFT_Defs.c
+diagnostics: 3529	123	Compiled Successfully	__Lib_TFT_Defs.c
+hint: 51	1164	Variable 'temp' has been eliminated by optimizer	__Lib_TFT_Defs.c
+diagnostics: 0	122	Compilation Started	stdint.h
+warning: 45	1505	Suspicious pointer conversion	__mm_plus_stm32f7_i2c.c
+warning: 51	1505	Suspicious pointer conversion	__mm_plus_stm32f7_i2c.c
+warning: 57	1505	Suspicious pointer conversion	__mm_plus_stm32f7_i2c.c
+warning: 63	1505	Suspicious pointer conversion	__mm_plus_stm32f7_i2c.c
+diagnostics: 349	123	Compiled Successfully	mikromediaPlus_STM32F7.c
+diagnostics: 0	122	Compilation Started	__lib_fat32.h
+diagnostics: 298	123	Compiled Successfully	__Lib_FAT32_Driver_STM32_M3_M4_M7.c
+hint: 87	1164	Variable 'c_size' has been eliminated by optimizer	__Lib_FAT32_Driver_STM32_M3_M4_M7.c
+hint: 87	1164	Variable 'c_size_mult' has been eliminated by optimizer	__Lib_FAT32_Driver_STM32_M3_M4_M7.c
+hint: 89	1164	Variable 'blocknr' has been eliminated by optimizer	__Lib_FAT32_Driver_STM32_M3_M4_M7.c
+diagnostics: 0	122	Compilation Started	__lib_fat32.h
+diagnostics: 105	123	Compiled Successfully	__Lib_FAT32_Defs_STM32_M3_M4_M7.c
+diagnostics: 0	122	Compilation Started	pressure4_demo_app_objects.h
+diagnostics: 67	123	Compiled Successfully	Pressure4_demo_app_main.c
+diagnostics: 0	122	Compilation Started	pressure4_demo_app_objects.h
+diagnostics: 73	123	Compiled Successfully	Pressure4_demo_app_events_code.c
+diagnostics: 0	122	Compilation Started	pressure4_demo_app_objects.h
+warning: 1954	1505	Suspicious pointer conversion	Pressure4_demo_app_driver.c
+diagnostics: 2016	123	Compiled Successfully	Pressure4_demo_app_driver.c
+diagnostics: 0	122	Compilation Started	Pressure4_demo_app_resources.c
+diagnostics: 1989	123	Compiled Successfully	Pressure4_demo_app_resources.c
+diagnostics: 0	122	Compilation Started	pressure4_demo_app_resources.h
+diagnostics: 124	123	Compiled Successfully	DemoApp_pressure.c
+diagnostics: 0	122	Compilation Started	pressure4_demo_app_resources.h
+diagnostics: 124	123	Compiled Successfully	DemoApp_rtc.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 160	123	Compiled Successfully	DemoApp_FAT32.c
+hint: 130	1164	Variable 'demoPressure' has been eliminated by optimizer	DemoApp_FAT32.c
+hint: 131	1164	Variable 'demoTemp' has been eliminated by optimizer	DemoApp_FAT32.c
+hint: 136	1164	Variable 'cnt1' has been eliminated by optimizer	DemoApp_FAT32.c
+hint: 137	1164	Variable 'cnt2' has been eliminated by optimizer	DemoApp_FAT32.c
+hint: 138	1164	Variable 'cnt' has been eliminated by optimizer	DemoApp_FAT32.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 372	123	Compiled Successfully	DemoApp_initTime.c
+diagnostics: 0	122	Compilation Started	pressure4_demo_app_resources.h
+diagnostics: 154	123	Compiled Successfully	DemoApp_displayGraphics.c
+diagnostics: 0	122	Compilation Started	demoapp_gsm.h
+hint: 0	1004	interrupt handler (Timer_interrupt at 0x002C)	demo_timer.h
+hint: 0	1004	interrupt handler (UART_RX_ISR at 0x0036)	DemoApp_GSM.c
+diagnostics: 71	123	Compiled Successfully	DemoApp_GSM.c
+hint: 13	1164	Variable 'evArgs' has been eliminated by optimizer	DemoApp_GSM.c
+diagnostics: 0	127	All files Compiled in 907 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 11700   Dynamic RAM (bytes): 315976	Static RAM (bytes): 11700   Dynamic RAM (bytes): 315976
+hint: 0	1144	Used ROM (bytes): 126165 (12%)  Free ROM (bytes): 922411 (88%)	Used ROM (bytes): 126165 (12%)  Free ROM (bytes): 922411 (88%)
+diagnostics: 0	125	Project Linked Successfully	Pressure4_demo_app.mcpar
+diagnostics: 0	128	Linked in 1687 ms	 
+diagnostics: 0	129	Project 'Pressure4_demo_app.mcpar' completed: 4844 ms	 
+diagnostics: 0	103	Finished successfully: 27 jun 2018, 12:00:18	Pressure4_demo_app.mcpar

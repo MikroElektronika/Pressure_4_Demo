@@ -1,0 +1,129 @@
+[DEVICE]
+Name=STM32F746ZG
+Clock=216000000
+[VTFT]
+File=Pressure4_demo_app.vtft
+_etMain=Pressure4_demo_app_main.c
+_etDriver=Pressure4_demo_app_driver.c
+_etEvents=Pressure4_demo_app_events_code.c
+_etObjects=Pressure4_demo_app_objects.h
+_etResources=Pressure4_demo_app_resources.c
+_etResourceHeader=Pressure4_demo_app_resources.h
+[MEMORY_MODEL]
+Value=0
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=..\..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M7\__Lib_GPIO_32F7xx_Defs.c
+[USE_EEPROM]
+Value=0
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=2000
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+File0=Pressure4_demo_app_main.c
+File1=Pressure4_demo_app_events_code.c
+File2=Pressure4_demo_app_driver.c
+File3=Pressure4_demo_app_resources.c
+File4=DemoApp_pressure.c
+File5=DemoApp_rtc.c
+File6=DemoApp_FAT32.c
+File7=DemoApp_initTime.c
+File8=DemoApp_displayGraphics.c
+File9=DemoApp_GSM.c
+Count=10
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+File0=Pressure4_demo_app_main.c
+File1=DemoApp_pressure.c
+File2=demo_config.h
+File3=..\..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikromedia drajver\Uses\mikromediaPlus_STM32F7.c
+File4=..\..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikromedia drajver\Uses\__mm_plus_STM32F7_UART.c
+File5=..\..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M7\__Lib_GPIO_32F7xx_Defs.c
+File6=..\..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikromedia drajver\Uses\__mm_plus_stm32f7_i2c.c
+Count=7
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Path0=..\..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\FAT32 Library\Uses\
+Path1=..\..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\GSM 2 Click\Uses\
+Path2=..\..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikromedia drajver\Uses\
+Path3=..\..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Pressure 4 Click\Uses\
+Path4=..\..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\RTC 6  Click\Uses\
+Path5=..\..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Mikromedia Board Definition\Uses\
+Count=6
+[HEADER_PATH]
+Path0=..\..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\FAT32 Library\Uses\
+Path1=..\..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\GSM 2 Click\Uses\
+Path2=..\..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikromedia drajver\Uses\
+Path3=..\..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Pressure 4 Click\Uses\
+Path4=..\..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\RTC 6  Click\Uses\
+Path5=..\..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Mikromedia Board Definition\Uses\
+Count=6
+[HEADERS]
+File0=Pressure4_demo_app_resources.h
+File1=Pressure4_demo_app_objects.h
+File2=demo_config.h
+File3=demo_types.h
+File4=DemoApp_pressure.h
+File5=DemoApp_rtc.h
+File6=DemoApp_FAT32.h
+File7=DemoApp_initTime.h
+File8=DemoApp_displayGraphics.h
+File9=DemoApp_GSM.h
+File10=demo_timer.h
+Count=11
+[PLDS]
+File0=demo_pld.pld
+Count=1
+[Useses]
+File0=Trigonometry
+File1=SPI
+File2=UART
+File3=Conversions
+File4=C_String
+File5=Port_Expander
+File6=Mmc
+File7=SDIO
+File8=FAT32_Defs_STM32_M3_M4_M7
+File9=FAT32_Driver_STM32_M3_M4_M7
+File10=FAT32_STM32_M3_M4_M7
+File11=RTC6_STM32_M7
+File12=TFT_TouchPanel
+File13=Pressure_4_STM32_M7
+File14=GSM_2_STM32_M7
+File15=I2C
+File16=STMPE610
+File17=TFT
+File18=TFT_Defs
+File19=TFT_Fonts
+File20=TWI
+File21=mikromediaPlus_STM32F7
+Count=22
+[EXPANDED_NODES]
+0=Pressure4_demo_app.mcpar
+1=Sources
+12=Header Files
+25=Project Level Defines
+Count=4
+[PROGRAMMER_OPTIONS]
+Value=SWD
+[PROGRAMMER_TYPE]
+Value=mE
+[DEBUGGER_TYPE]
+Value=default
+[AT_DEBUG_STARTUP]
+LOAD_BIN_TO_RAM=0
+START_EXEC_FROM_ADDR=0
+START_ADDR=-1
